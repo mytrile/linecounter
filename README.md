@@ -14,7 +14,7 @@ import (
 )
 
 func main() {
-    stats, err := linecount.GetStats("/path/to/file.go")
+    stats, err := linecounter.GetStats("/path/to/file.go")
     if err != nil {
         // Handle the error
     } else {
